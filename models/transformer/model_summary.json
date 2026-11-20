@@ -1,0 +1,28 @@
+{
+  "model_name": "TransformerEncoder",
+  "model_path": "d:\\University_DUT\\Semester7\\Hoc_may_ung_dung\\Project_CK\\ExercisePoseAssessment\\models\\transformer\\best_model.h5",
+  "best_epoch": 48,
+  "val_accuracy": 0.9246,
+  "test_accuracy": 0.9434,
+  "test_loss": 0.3695,
+  "total_params": 306949,
+  "hyperparams": {
+    "embed_dim": 128,
+    "num_heads": 4,
+    "ff_dim": 256,
+    "n_blocks": 2,
+    "dropout": 0.15
+  },
+  "input_shape": [
+    30,
+    99
+  ],
+  "n_classes": 5,
+  "label_map": {
+    "0": "push-up",
+    "1": "lateral raise",
+    "2": "squat",
+    "3": "pull Up",
+    "4": "leg raises"
+  }
+}

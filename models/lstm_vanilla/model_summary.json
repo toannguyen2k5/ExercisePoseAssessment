@@ -1,0 +1,29 @@
+{
+  "model_name": "LSTM_Vanilla",
+  "architecture": "2-layer Vanilla LSTM (1-directional)",
+  "total_params": 588293,
+  "best_epoch": 10,
+  "best_val_acc": 0.850040078163147,
+  "test_accuracy": 0.8435438275337219,
+  "test_loss": 1.512187123298645,
+  "config": {
+    "epochs": 150,
+    "batch_size": 32,
+    "lr_init": 0.001,
+    "patience": 20,
+    "lstm_units": [
+      256,
+      128
+    ],
+    "dense_units": [
+      128,
+      64
+    ],
+    "dropout": [
+      0.3,
+      0.3,
+      0.3,
+      0.2
+    ]
+  }
+}

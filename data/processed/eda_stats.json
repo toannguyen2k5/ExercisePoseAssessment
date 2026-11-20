@@ -1,0 +1,53 @@
+{
+  "total_videos": 169,
+  "total_duration_sec": 1335.0,
+  "total_size_mb": 1321.8,
+  "fps_note": "Chuan hoa ve 30fps truoc khi extract keypoints",
+  "classes": [
+    {
+      "label_id": 1,
+      "exercise": "lateral raise",
+      "video_count": 37,
+      "avg_fps": 26.1,
+      "avg_duration_s": 8.3,
+      "avg_frames": 226,
+      "total_size_mb": 422.7
+    },
+    {
+      "label_id": 4,
+      "exercise": "leg raises",
+      "video_count": 21,
+      "avg_fps": 28.4,
+      "avg_duration_s": 9.0,
+      "avg_frames": 259,
+      "total_size_mb": 225.9
+    },
+    {
+      "label_id": 3,
+      "exercise": "pull Up",
+      "video_count": 26,
+      "avg_fps": 29.7,
+      "avg_duration_s": 8.1,
+      "avg_frames": 257,
+      "total_size_mb": 140.0
+    },
+    {
+      "label_id": 0,
+      "exercise": "push-up",
+      "video_count": 56,
+      "avg_fps": 30.0,
+      "avg_duration_s": 5.9,
+      "avg_frames": 177,
+      "total_size_mb": 68.6
+    },
+    {
+      "label_id": 2,
+      "exercise": "squat",
+      "video_count": 29,
+      "avg_fps": 27.2,
+      "avg_duration_s": 10.2,
+      "avg_frames": 294,
+      "total_size_mb": 464.5
+    }
+  ]
+}

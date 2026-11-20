@@ -1,0 +1,21 @@
+{
+  "model_name": "BiLSTM",
+  "model_path": "d:\\University_DUT\\Semester7\\Hoc_may_ung_dung\\Project_CK\\ExercisePoseAssessment\\models\\lstm\\best_model.h5",
+  "best_epoch": 10,
+  "val_accuracy": 0.8492,
+  "test_accuracy": 0.7936,
+  "test_loss": 2.4488,
+  "total_params": 424453,
+  "input_shape": [
+    30,
+    99
+  ],
+  "n_classes": 5,
+  "label_map": {
+    "0": "push-up",
+    "1": "lateral raise",
+    "2": "squat",
+    "3": "pull Up",
+    "4": "leg raises"
+  }
+}

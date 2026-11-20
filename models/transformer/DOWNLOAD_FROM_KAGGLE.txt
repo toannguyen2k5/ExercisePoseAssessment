@@ -1,0 +1,1 @@
+﻿# Transformer model - download from Kaggle after training

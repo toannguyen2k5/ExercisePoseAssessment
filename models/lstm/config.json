@@ -1,0 +1,41 @@
+﻿{
+    "input_shape":  [
+                        30,
+                        99
+                    ],
+    "batch_size":  32,
+    "l2_reg":  0.0001,
+    "model_name":  "LSTM",
+    "epochs_max":  200,
+    "layers":  [
+                   {
+                       "units":  128,
+                       "dropout":  0.3,
+                       "type":  "LSTM",
+                       "return_sequences":  true
+                   },
+                   {
+                       "units":  64,
+                       "dropout":  0.3,
+                       "type":  "LSTM",
+                       "return_sequences":  false
+                   },
+                   {
+                       "units":  64,
+                       "activation":  "relu",
+                       "type":  "Dense"
+                   },
+                   {
+                       "rate":  0.4,
+                       "type":  "Dropout"
+                   },
+                   {
+                       "units":  5,
+                       "activation":  "softmax",
+                       "type":  "Dense"
+                   }
+               ],
+    "num_classes":  5,
+    "optimizer":  "adam",
+    "learning_rate":  0.001
+}

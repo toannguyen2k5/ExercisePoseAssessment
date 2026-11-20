@@ -1,0 +1,53 @@
+{
+  "method": "video-level split (no leakage)",
+  "train_pct": "~70%",
+  "val_pct": "~15%",
+  "test_pct": "~15%",
+  "per_class": {
+    "push-up": {
+      "total": 56,
+      "train_vids": 38,
+      "val_vids": 9,
+      "test_vids": 9,
+      "train_windows": 1064,
+      "val_windows": 345,
+      "test_windows": 289
+    },
+    "lateral raise": {
+      "total": 37,
+      "train_vids": 25,
+      "val_vids": 6,
+      "test_vids": 6,
+      "train_windows": 1188,
+      "val_windows": 289,
+      "test_windows": 171
+    },
+    "squat": {
+      "total": 29,
+      "train_vids": 19,
+      "val_vids": 5,
+      "test_vids": 5,
+      "train_windows": 1163,
+      "val_windows": 224,
+      "test_windows": 238
+    },
+    "pull Up": {
+      "total": 26,
+      "train_vids": 18,
+      "val_vids": 4,
+      "test_vids": 4,
+      "train_windows": 796,
+      "val_windows": 173,
+      "test_windows": 149
+    },
+    "leg raises": {
+      "total": 21,
+      "train_vids": 14,
+      "val_vids": 3,
+      "test_vids": 4,
+      "train_windows": 595,
+      "val_windows": 216,
+      "test_windows": 214
+    }
+  }
+}

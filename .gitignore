@@ -1,0 +1,92 @@
+# ============================================================
+#  ExercisePoseAssessment — .gitignore
+# ============================================================
+
+# ── Python ───────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+*.so
+
+# Virtual environment (KHÔNG push lên git)
+.venv/
+venv/
+env/
+
+# ── Data & Models (file lớn — dùng Git LFS hoặc bỏ hẳn) ─────
+# Processed numpy arrays (~244 MB)
+data/processed/*.npy
+data/processed/*.pkl
+
+# Model weights (~20 MB mỗi file)
+models/*/best_model.h5
+models/*/final_model.h5
+models/transformer/final_training_history.json
+
+# MediaPipe task file (~9.4 MB)
+notebooks/pose_landmarker_full.task
+notebooks/pose_landmarker_lite.task
+notebooks/pose_landmarker_heavy.task
+
+# Archive video dataset (giữ cấu trúc thư mục, bỏ video)
+archive/**/*.mp4
+archive/**/*.avi
+archive/**/*.mov
+archive/**/*.MP4
+archive/**/*.AVI
+archive/**/*.MOV
+
+# Demo videos
+data/demo_videos/
+
+# ── Reports / generated images ────────────────────────────────
+# Giữ lại reports để nhóm đọc
+# reports/*.png  ← comment out nếu muốn giữ
+# reports/*.json ← comment out nếu muốn giữ
+
+# ── Node.js ──────────────────────────────────────────────────
+node_modules/
+frontend/node_modules/
+backend/node_modules/
+
+# Build output
+frontend/dist/
+backend/dist/
+
+# npm / yarn lockfiles (tùy team, giữ package-lock.json thì xóa dòng này)
+# package-lock.json
+
+# ── Jupyter Notebook ─────────────────────────────────────────
+.ipynb_checkpoints/
+notebooks/.ipynb_checkpoints/
+
+# ── Environment & Secrets ────────────────────────────────────
+.env
+.env.local
+.env.production
+# Giữ .env.example (mẫu cho nhóm)
+
+# ── IDE / OS ─────────────────────────────────────────────────
+.vscode/settings.json
+.vscode/*.code-workspace
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── Logs & Temp ──────────────────────────────────────────────
+*.log
+tmp/
+temp/
+*.tmp
+
+# ── Augmented data (nếu chạy lại sẽ tự sinh) ─────────────────
+data/augmented/
+

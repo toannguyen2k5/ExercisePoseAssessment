@@ -1,0 +1,19 @@
+﻿{
+    "learning_rate_max":  0.001,
+    "model_name":  "TransformerEncoder",
+    "d_model":  128,
+    "ff_dim":  256,
+    "warmup_epochs":  10,
+    "dropout":  0.3,
+    "input_shape":  [
+                        30,
+                        99
+                    ],
+    "num_layers":  2,
+    "num_heads":  4,
+    "l2_reg":  0.0001,
+    "num_classes":  5,
+    "epochs_max":  200,
+    "batch_size":  32,
+    "optimizer":  "adam"
+}
